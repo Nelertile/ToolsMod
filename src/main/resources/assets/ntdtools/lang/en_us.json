@@ -1,6 +1,12 @@
 {
     "itemGroup.ntdtools.general": "ToolsMod",
+    "itemGroup.ntdtools.block": "ToolsMod Blocks",
+    
     "item.ntdtools.astral_alloy": "Astral Alloy Ingot",
     "item.ntdtools.astral_diamond": "Astral Diamond",
-    "item.ntdtools.astral_iron": "Astral Iron"
+    "item.ntdtools.astral_iron": "Astral Iron",
+    "item.ntdtools.astralite_dust": "Astralite Dust",
+
+    "block.ntdtools.astralite_block": "Astralite Block",
+    "block.ntdtools.astralite_ore": "Astralite Ore"
 }

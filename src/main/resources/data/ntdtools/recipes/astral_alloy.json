@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "ntdtools:astral_iron"
+        },
+        {
+            "item": "ntdtools:astral_diamond"
+        }
+    ],
+    "result": {
+        "item": "ntdtools:astral_alloy"
+    }
+}

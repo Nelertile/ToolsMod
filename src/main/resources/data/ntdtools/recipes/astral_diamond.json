@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:diamond"
+        },
+        {
+            "item": "ntdtools:astralite_dust"
+        }
+    ],
+    "result": {
+        "item": "ntdtools:astral_diamond"
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "ntdtools:block/astralite_block" }
+    }
+}

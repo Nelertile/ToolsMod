@@ -9,6 +9,7 @@ import net.minecraft.util.Identifier;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import io.github.nottoxicdev.block.ModBlocks;
 import io.github.nottoxicdev.item.ModItems;
 
 public class ToolsMod implements ModInitializer {
@@ -18,7 +19,9 @@ public class ToolsMod implements ModInitializer {
 	public static final String MOD_ID = "ntdtools";
 
 	public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "general"),
-			() -> new ItemStack(ModItems.ASTRAL_ALLOY));
+			() -> new ItemStack(ModItems.ASTRALITE_DUST));
+	public static final ItemGroup BLOCK_GROUP = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "block"),
+			() -> new ItemStack(ModBlocks.ASTRALITE_BLOCK));
 	public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
 
 	@Override
@@ -27,5 +30,6 @@ public class ToolsMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
